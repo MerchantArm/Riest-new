@@ -10,17 +10,17 @@ header {
     margin-left: 800px;
 }
 
-.nav > h2 {
+.nav-item {
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.nav > h2 > a {
+.nav-item > a {
     text-decoration: none;
     color: black;
     transition: color 0.2s;
 }
 
-.nav > h2 > a:hover {
+.nav-item > a:hover {
     color: green;
 }
