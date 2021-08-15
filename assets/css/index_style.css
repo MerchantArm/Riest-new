@@ -1,13 +1,23 @@
+body {
+    background-image: url(../images/index_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 header {
     display: flex;
+    background-color: white;
+    justify-content: center;
     font-family: monospace;
+    border-radius: 10px;
 }
 
 .nav {
     display: flex;
     justify-content: flex-end;
-    padding: 10px;
-    margin-left: 800px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 700px;
 }
 
 .nav-item {
