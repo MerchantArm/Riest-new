@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    font-family: monospace;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-left: 800px;
+}
+
+.nav > h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav > h2 > a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+}
+
+.nav > h2 > a:hover {
+    color: green;
+}
